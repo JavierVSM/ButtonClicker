@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			ButtonClicker
+		</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>	
+	<body>
+        <!--Inicio NavBAR-->
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" placeholder="SEARCH" id="SCR" class="search">
+            <button onclick="logout(this)" class="btn">Login</button>
+        </div>
+        <!--FIN NavBAR-->
+        <div class="container">
+            <div class="cards">
+                <!--Inicio Left Side-->
+                <div class="mainCard">
+                    <div class="secondContainer">
+                        <h1>ninja</h1>
+                        <p> <em>noun</em></p>
+                        <div>Plural: <em>ninjas</em></div>
+                        <button onclick="alertLike(this)" class="btn2">13 Likes</button>
+                    </div>
+                    <div class="thirdContainer">
+                        A practitioner skilled in the <span>Japonese</span> art of <span>ninjutsu</span>.
+                    </div>
+                </div>
+                <div class="mainCard">
+                    <div class="secondContainer">
+                        <h1>ninja</h1>
+                        <p> <em>noun</em></p>
+                        <div>Plural: <em>ninjas</em></div>
+                        <button onclick="alertLike(this)" class="btn2">37 Likes</button>
+                    </div>
+                    <div class="thirdContainer">
+                        A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus
+                    </div>
+                </div>
+                <!--Fin Left Side-->
+            </div>
+            <div class="banner">
+                <p class="bannerText">Dojonary is defined by YOU</p>
+                <button onclick="remove(this)" class="btn3">Add Definition</button>
+            </div>
+        </div>
+    <script src="./index.js"></script>    
+    </body>
+</html>    

@@ -1,0 +1,103 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: rgb(199, 193, 193);
+    align-items: center;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.search{
+    height: 15px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.btn{
+    text-align:center;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(33, 135, 231);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    width: 80px;
+}
+
+.btn2{
+    text-align:center;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(231, 199, 55);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn3{
+    text-align:center;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(100, 199, 109);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 135px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.cards{
+    flex:5;
+    margin-right: 20px;
+}
+
+.banner{
+    flex:1;
+    padding: 30px;
+    border: black 2px solid;
+    height: 100px;
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+    margin-bottom: 20px;
+}
+
+.secondContainer {
+    flex:1;
+    padding: 20px;
+    text-align: center;
+}
+
+.thirdContainer {
+    flex:4;
+}
+
+.bannerText {
+    font-size: large;
+    font-weight: bolder;
+}
+
+
